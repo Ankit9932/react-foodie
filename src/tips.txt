@@ -1,0 +1,25 @@
+how to use external icons 
+    for example react icons
+
+    step-1 install package
+    //react icons
+        npm install react-icons --save
+    //material icons
+        npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    
+    step-2 copy icon name from website and import
+        import { BsFillCartFill } from "react-icons/bs";
+
+    step-3 use like below
+        <a href=""> <BsFillCartFill className="navbar-cart-icon" /></a>
+
+
+how to use router
+    step-1 install package
+        npm i react-router-dom
+    
+    step-2 import below for using router
+        import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+    step-3 Wrap components in Route 
+        refer App.js   
